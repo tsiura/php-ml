@@ -100,7 +100,7 @@ class Cluster extends Point implements IteratorAggregate
     /**
      * @return Point[]|SplObjectStorage
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->points;
     }

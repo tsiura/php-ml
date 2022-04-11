@@ -96,7 +96,7 @@ class Point implements ArrayAccess, \Countable
      *
      * @return mixed
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         return $this->coordinates[$offset];
     }
